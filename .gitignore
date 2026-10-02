@@ -1,0 +1,57 @@
+# ----- Environment & secrets -----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ----- Virtual environments -----
+.venv/
+venv/
+env/
+ENV/
+
+# ----- Python bytecode & caches -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ----- Packaging / build -----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ----- Testing & coverage -----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ----- Type checkers & linters -----
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyre/
+
+# ----- Databases (local) -----
+*.sqlite3
+*.db
+
+# ----- Logs -----
+*.log
+logs/
+
+# ----- IDE / editor -----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
